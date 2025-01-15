@@ -1,0 +1,30 @@
+.main{
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+  /* border: 2px solid red; */
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap; 
+}
+.one{
+  flex-grow: 1;
+   flex-basis: 100px;
+    height: 100px; 
+    width: 20%;
+   box-shadow: 0px 0px 5px 2px black;
+   padding: 30px;
+   margin: 20px; 
+   background-color: rgb(13, 83, 110); 
+   color: #ffffff; 
+}  
+
+
+    
+
+
+.one > h1{
+    font-size: 20px;
+    text-align: center;
+}
